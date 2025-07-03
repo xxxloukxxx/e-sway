@@ -13,7 +13,7 @@ install:
 	sudo apt -y -qq install curl wget tmux gettext unzip p7zip-full rsync fd-find bat tree btop locales-all gcc silversearcher-ag
 	sudo apt -y -qq install moc pulseaudio pavucontrol fzf caja flameshot trash-cli
 	sudo apt -y -qq install x11-utils libreadline-dev libx11-dev libxinerama-dev libxft-dev numlockx xdotool
-	sudo apt -y -qq install greetd sway xwayland dex i3blocks feh suckless-tools dunst
+	sudo apt -y -qq install greetd sway xwayland dex i3blocks feh suckless-tools dunst adwaita-icon-theme
 	sudo cp -fr .install/greetd.config.toml /etc/greetd/config.toml
 	sudo apt -y -qq install 'fonts-hac*' 'fonts-libe*' fonts-font-awesome fonts-terminus-otb fonts-agave 'fonts-ibm*'
 	sudo apt -y -qq install fonts-noto-color-emoji fonts-noto-core fonts-noto-extra fonts-noto-hinted fonts-noto-mono fonts-noto-ui-core
