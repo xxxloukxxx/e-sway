@@ -9,7 +9,7 @@ upgrade:
 
 install:
 	echo "\n>>> Install zsh, vim and friends"
-	sudo apt -y -qq install git make build-essential cmake ninja-build micro nnn vim vim-gtk3 zsh stterm lsd ripgrep suckless-tools aptitude nala universal-ctags
+	sudo apt -y -qq install git make build-essential cmake ninja-build nnn vim vim-gtk3 zsh stterm lsd ripgrep suckless-tools aptitude nala universal-ctags
 	sudo apt -y -qq install curl wget tmux gettext unzip p7zip-full rsync fd-find bat tree btop locales-all gcc silversearcher-ag
 	sudo apt -y -qq install moc pulseaudio pavucontrol fzf caja flameshot trash-cli
 	sudo apt -y -qq install x11-utils libreadline-dev libx11-dev libxinerama-dev libxft-dev numlockx xdotool
@@ -62,7 +62,7 @@ keyb:
 
 packages:
 	echo "\n>>> Install some packages"
-	sudo apt -y -qq install gimp firefox-esr firefox-esr-l10n-fr texlive-full evince zathura okular pdftk imagemagick eog qimgv
+	sudo apt -y -qq install gimp firefox-esr firefox-esr-l10n-fr texlive-full evince zathura okular pdftk imagemagick eog qimgv pandoc npm nodejs libreoffice libreoffice-l10n-fr librecad freecad
 
 xcmd:
 	wget -O xcmd.sh https://get.x-cmd.com
