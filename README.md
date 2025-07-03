@@ -1,3 +1,3 @@
 # e-sway
 
-Config avec sway ...
+Config avec sway
